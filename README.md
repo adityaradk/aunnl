@@ -27,7 +27,7 @@ The following example trains a Neural Network to classify handwritten digits fro
 import aunnl
 
 from mnist_web import mnist
-data, labels, _, _ = mnist(path=\"dataset\")
+data, labels, _, _ = mnist(path="dataset")
 
 model = aunnl.NeuralNetwork([784, 256, 10], ["relu", "sigmoid"])
 
