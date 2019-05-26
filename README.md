@@ -37,7 +37,7 @@ model.fit(data, labels, epochs, batch_size, lr, aunnl.losses.MSE)
 model.save("mnist.aunn")
 ```
 
-In the above example, a Neural Network with 256 hidden neurons is trained - the hidden layer activation being ReLU and the output layer activation being sigmoid. The model, which is an `aunnl.NeuralNetwork` object, is then saved to the file `mnist.aunn`. The model can be loaded from the file with `aunnl.loadModel('mnist.aunn')`.
+In the above example, a Neural Network with a hidden layer of 256 neurons is trained - its activation being ReLU and the output layer activation being sigmoid. The model, which is an `aunnl.NeuralNetwork` object, is then saved to the file `mnist.aunn`. The model can be loaded from the file with `aunnl.loadModel('mnist.aunn')`.
 
 To use the model, simply pass the image in the form of a flat numpy array (denoted here as `img_arr`) to the model with `model.feedForward(img_arr)`. The `feedForward` function returns a list of the values outputted by the model.
 
