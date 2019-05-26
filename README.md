@@ -1,7 +1,7 @@
 ![](https://i.ibb.co/ypC5ZVv/aunnl.png)
 ___
 
-AUNNL is another unnecessary Neural Network library for Python 3.x. It is a very simple library with a numpy backend and is intended to help create and train basic neural networks very easily.
+AUNNL is another unnecessary Neural Network library for Python 3.x. It is intended to help create and train basic neural networks very easily.
 
 ## Getting Started
 
