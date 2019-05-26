@@ -2,7 +2,7 @@
 
 ___
 
-AUNNL - Another Unnecessary Neural Network Library
+AUNNL is another unnecessary Neural Network library
 
 AUNNL is a simple, very easy to use Neural Network library for Python 3.x.
 
