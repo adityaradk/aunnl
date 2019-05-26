@@ -1,6 +1,6 @@
 ![](https://i.ibb.co/ypC5ZVv/aunnl.png)
 
-Another Unnecessary Neural Network Library
+# Another Unnecessary Neural Network Library
 
 AUNNL is a simple, very easy to use Neural Network library for Python 3.x.
 
