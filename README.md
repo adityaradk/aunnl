@@ -1,7 +1,7 @@
 ![](https://i.ibb.co/ypC5ZVv/aunnl.png)
 ___
 
-AUNNL is another unnecessary Neural Network library for Python 3.x. It is intended to help create and train basic neural networks very easily.
+AUNNL is another unnecessary neural network library for Python 3.x. It is intended to help create and train basic neural networks very easily.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ import aunnl
 
 ### Basic Example
 
-The following example trains a Neural Network to classify handwritten digits from the MNIST dataset. The dataset is loaded using the `mnist_web` module, which is not packaged with AUNNL. Download and install it with the command `pip install mnist_web`.
+The following example trains a neural network to classify handwritten digits from the MNIST dataset. The dataset is loaded using the `mnist_web` module, which is not packaged with AUNNL. Download and install it with the command `pip install mnist_web`.
 
 ```
 import aunnl
@@ -37,7 +37,7 @@ model.fit(data, labels, epochs, batch_size, lr, aunnl.losses.MSE)
 model.save("mnist.aunn")
 ```
 
-In the above example, a Neural Network with a hidden layer of 256 neurons is trained - its activation being ReLU and the output layer activation being sigmoid. The model, which is an `aunnl.NeuralNetwork` object, is then saved to the file `mnist.aunn`. The model can be loaded from the file with `aunnl.loadModel('mnist.aunn')`.
+In the above example, a neural network with a hidden layer of 256 neurons is trained - its activation being ReLU and the output layer activation being sigmoid. The model, which is an `aunnl.NeuralNetwork` object, is then saved to the file `mnist.aunn`. The model can be loaded from the file with `aunnl.loadModel('mnist.aunn')`.
 
 To use the model, simply pass the image in the form of a flat numpy array (denoted here as `img_arr`) to the model with `model.feedForward(img_arr)`. The `feedForward` function returns a list of the values outputted by the model.
 
